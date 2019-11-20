@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-webpage",
+  "version": "0.1.0",
+  "description": "Personal web-page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eduardo-rico/nodejs-webpage.git"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "personalwebpage"
+  ],
+  "author": "Eduardo-rico",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Eduardo-rico/nodejs-webpage/issues"
+  },
+  "homepage": "https://github.com/Eduardo-rico/nodejs-webpage#readme"
+}
