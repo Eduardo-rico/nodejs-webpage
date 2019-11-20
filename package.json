@@ -4,7 +4,9 @@
   "description": "Personal web-page",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src",
+    "start": "node src"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/Eduardo-rico/nodejs-webpage/issues"
   },
-  "homepage": "https://github.com/Eduardo-rico/nodejs-webpage#readme"
+  "homepage": "https://github.com/Eduardo-rico/nodejs-webpage#readme",
+  "dependencies": {
+    "ejs": "^2.7.4",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1"
+  }
 }
