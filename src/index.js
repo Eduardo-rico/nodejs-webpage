@@ -8,7 +8,7 @@ app.set("view engine", "ejs"); //motor de plantillas
 app.set("views",path.join(__dirname, "views"));
 app.engine("html", require("ejs").renderFile); //archivos ahtml pero procesados por ejs
 //static files
-
+app.use(express.static(path.join(__dirname, "public")))
 //middlewares //preprocesar antes de que llegue a las rutas
 
 //routes

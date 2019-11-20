@@ -11,5 +11,10 @@ router.get("/contact", (req, res) => {
     // Saber la ruta de index.js console.log(__dirname)
 });
 
+router.get("/about", (req, res) => {
+    res.render("about.html", {title: "About Eduardo Rico"})
+    //console.log(path.join(__dirname, "views/index.html"))
+    // Saber la ruta de index.js console.log(__dirname)
+});
 
 module.exports = router;
